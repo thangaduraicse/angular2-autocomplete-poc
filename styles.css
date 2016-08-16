@@ -1,0 +1,19 @@
+body {
+  margin: 2em;
+}
+body, input[text], button {
+  color: #888;
+}
+.search-result{
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.search-result:hover {
+  color: #000;
+}
+.autocomplete {
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
